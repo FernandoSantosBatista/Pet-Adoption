@@ -40,8 +40,8 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
     .json({ status: 'error', message: 'Internal server error' });
 });
 
+const port = process.env.PORT || 3000;
 
-
-app.listen(process.env.PORT || 3000, () => {
+app.listen(port, () => {
   console.log('port 3000');
 });
