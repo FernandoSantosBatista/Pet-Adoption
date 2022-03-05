@@ -5,7 +5,7 @@
   "main": "index.js",
 
   "scripts": {
-    "client": "npm run start --prefix ./frontend",
+    "client": "npm run start --prefix ./front-end",
     "test": "echo \"Error: no test specified\" &amp;&amp; exit 1",
     "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules src/server.ts",
     "lint": "eslint . --ext .ts",
