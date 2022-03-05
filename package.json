@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "client": "npm run start --prefix ./front-end",
-
+  "heroku-postbuild": "cd frontend && ./build.sh",
   "scripts": {
 
     "test": "echo \"Error: no test specified\" &amp;&amp; exit 1",
