@@ -1,10 +1,10 @@
 {
   "type": "postgres",
-  "host": "localhost",
+  "host": "ec2-3-230-122-20.compute-1.amazonaws.com",
   "port": 5432,
-  "username": "postgres",
-  "password": "123456",
-  "database": "dg_base",
+  "username": "kzskhuhfclzwqc",
+  "password": "b47a333ad7b0117a1d1f7207b97e282da28d746cbb337236d48f44ee3b400c8c",
+  "database": "delo3och43oiff",
   "entities": [
     "./src/models/*.ts"
   ],
